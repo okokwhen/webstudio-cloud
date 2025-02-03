@@ -21,11 +21,11 @@ export const getResources = (_props: { system: System }) => {
   resources: Record<string, any>;
 }): PageMeta => {
   return {
-    title: "MPLS Exclusives",
+    title: "MPLS Exclusives | Placing Orders",
     description: undefined,
     excludePageFromSearch: undefined,
     language: undefined,
-    socialImageAssetName: "CleanShot_2025-02-02_at_09.58.25_2x_oYCLy5ll7ytvMbcX4Eb_x.png",
+    socialImageAssetName: undefined,
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

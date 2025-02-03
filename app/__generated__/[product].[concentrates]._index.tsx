@@ -5,9 +5,9 @@
       import { Fragment, useState } from "react";
       import type { FontAsset, ImageAsset } from "@webstudio-is/sdk";
       import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
-      import { Body as Body, Link as Link, RichTextLink as RichTextLink } from "@webstudio-is/sdk-components-react-router";
-import { Box as Box, Image as Image, Button as Button, Text as Text, HtmlEmbed as HtmlEmbed, Bold as Bold, Heading as Heading, Fragment as Fragment_1, Slot as Slot, List as List, ListItem as ListItem, Paragraph as Paragraph } from "@webstudio-is/sdk-components-react";
-import { Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as DialogOverlay, DialogContent as DialogContent, DialogTitle as DialogTitle, DialogDescription as DialogDescription, DialogClose as DialogClose, NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuTrigger as NavigationMenuTrigger, NavigationMenuContent as NavigationMenuContent, NavigationMenuLink as NavigationMenuLink, NavigationMenuViewport as NavigationMenuViewport } from "@webstudio-is/sdk-components-react-radix";
+      import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Image as Image, Box as Box, Button as Button, Slot as Slot, Heading as Heading, List as List, ListItem as ListItem, Text as Text, Paragraph as Paragraph, Bold as Bold } from "@webstudio-is/sdk-components-react";
+import { Link as Link, RichTextLink as RichTextLink, Body as Body } from "@webstudio-is/sdk-components-react-router";
+import { Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as DialogOverlay, DialogContent as DialogContent, DialogTitle as DialogTitle, DialogClose as DialogClose, NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuTrigger as NavigationMenuTrigger, NavigationMenuContent as NavigationMenuContent, NavigationMenuLink as NavigationMenuLink, NavigationMenuViewport as NavigationMenuViewport, DialogDescription as DialogDescription } from "@webstudio-is/sdk-components-react-radix";
 
 
       export const siteName = "MPLS Exclusives";
@@ -23,18 +23,12 @@ import { Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as Dial
         []
 
       
-            
-
-            export const CustomCode = () => {
-              return (<></>);
-            }
-          
 
       
 
       const Page = ({ }: { system: any; }) => {
 return <Body
-className={`w-body c1phj05c c1vbz5x0`}>
+className={`w-body cs1bwfe c1vbz5x0 c1wdgcvp`}>
 <Slot>
 <Fragment_1>
 <Box
@@ -384,131 +378,342 @@ className={`w-menu-viewport cgyr9oz c155sw9q c11ubgxe c9l79tx cmthkik c1x7ee1t c
 </Slot>
 <Box
 tag={"section"}
-className={`w-box c1uz6xw7 c1nb0s53 cu4mp27 coz4cqg c1iw9sd4 c1dtj5ge cz0oo7p c6pyjvh ca5928l ct91q5z ca6pd8`}>
-<Image
-src={"/assets/logo_K8oPhIZdT21u2JNqOVJST.jpg"}
-width={1234}
-height={1155}
-className={`w-image cef0brg c1p1be02 c795p7h c1d46z1q cvmyoc ctbssl9 c1xpsewi`} />
-<Dialog>
-<DialogTrigger>
-<Button
-className={`w-button ctjochp c7fnkrg c1dtj5ge c1iw9sd4 c182wqiz cxz3q4v c155m8xy c13lvruk clikaav c1hopcms c10r8lgl c3zswuo c71sr46 c1boul6h c1kfa18p c1myxufp chfvogj c1b1yl8t crdep2e cmc8d9s c1jaqdov c885pcf c1efx6ce c1stjap9 c1ldecdk cinr0tx chlh413`}>
-{"Check our announcements"}
-</Button>
-</DialogTrigger>
-<DialogOverlay
-className={`w-dialog-overlay cmuvpwi c1qfxbu6 c1fn72dp c1dj3kbp c19wrn1i c1ewfgy3 csmh3uv c1daxzqz cu4mp27 c1p9hr4d c1mi2d6u c1q9b4p7 cqc7iq8`}>
-<DialogContent
-className={`w-dialog-content cv3kzx6 c1ewfgy3 cu4mp27 coz4cqg c17f72d3 c12rlhi6 c1qsigrr c1h713so cgyr9oz c182wqiz cxz3q4v c13lvruk c155m8xy cgad91 cvxm8iq c78u610`}>
-<Box
-className={`w-box cu4mp27 coz4cqg c1e5380k crqyyz3`}>
-<DialogTitle
-className={`w-dialog-title cguwokb ch95qu3 c1pdq8m0 cndm087 cttiol5 c1mo3ffr`}>
-{"Announcements"}
-</DialogTitle>
-<DialogDescription
-className={`w-dialog-description cguwokb ch95qu3 clikaav c1hopcms c1u1j6p9`}>
-<Text
-tag={"span"}
-className={`w-text`}>
-<Bold
-className={`w-bold-text`}>
-{"Last Updated: 12 / 2 / 2024"}
-</Bold>
-</Text>
-</DialogDescription>
-</Box>
-<Text
-className={`w-text c1mo3ffr`}>
-{"New Live Resin Cartridge flavors will be ready mid December, 10 new flavors. Just waiting on the packaging to arrive."}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"New Products:"}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Exotic Flower"}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"A+ Indoors"}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"B+ Indoors"}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Grape God Disposables"}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Live Resin concentrates"}
-</Text>
-<DialogClose
-className={`w-close-button c1bo75lt c14mx6p cwbs124 ca5e57g cd40bcu c9i0pxj ckuwcyh cegh7e9 cu4mp27 c1dtj5ge c1iw9sd4 c1xvh1el c1htejvr c1d5yt3j ckd01ui c15bbt3u cm91q73 c7sfkvv c12jn520`}>
+className={`w-box c6ekihf c1nb0s53 cu4mp27 coz4cqg c1iw9sd4 c1dtj5ge cz0oo7p ccf90o4 cxxsimo cwd459k`}>
+<Slot>
+<Fragment_1>
 <HtmlEmbed
-code={"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"currentColor\" width=\"100%\" height=\"100%\" style=\"display: block;\"><path fill-rule=\"evenodd\" d=\"M13.566 2.434a.8.8 0 0 1 0 1.132L9.13 8l4.435 4.434a.8.8 0 0 1-1.132 1.132L8 9.13l-4.434 4.435a.8.8 0 0 1-1.132-1.132L6.87 8 2.434 3.566a.8.8 0 0 1 1.132-1.132L8 6.87l4.434-4.435a.8.8 0 0 1 1.132 0Z\" clip-rule=\"evenodd\"/></svg>"}
-className={`w-html-embed ccqflnv c4f7xok csfqdt0 c18di848 c1mo3ffr`} />
-</DialogClose>
-</DialogContent>
-</DialogOverlay>
-</Dialog>
+code={"<script>(function(factory){if(typeof define===\"function\"&&define.amd){define(factory)}else if(typeof module!==\"undefined\"&&module.exports){module.exports=factory()}else{window.enterView=factory.call(this)}})((()=>{const lib=({selector:selector,enter:enter=(()=>{}),exit:exit=(()=>{}),progress:progress=(()=>{}),offset:offset=0,once:once=false})=>{let raf=null;let ticking=false;let elements=[];let height=0;function setupRaf(){raf=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(callback){return setTimeout(callback,1e3/60)}}function getOffsetHeight(){if(offset&&typeof offset===\"number\"){const fraction=Math.min(Math.max(0,offset),1);return height-fraction*height}return height}function updateHeight(){const cH=document.documentElement.clientHeight;const wH=window.innerHeight||0;height=Math.max(cH,wH)}function updateScroll(){ticking=false;const targetFromTop=getOffsetHeight();elements=elements.filter((el=>{const{top:top,bottom:bottom,height:height}=el.getBoundingClientRect();const entered=top<targetFromTop;const exited=bottom<targetFromTop;if(entered&&!el.__ev_entered){enter(el);el.__ev_progress=0;progress(el,el.__ev_progress);if(once)return false}else if(!entered&&el.__ev_entered){el.__ev_progress=0;progress(el,el.__ev_progress);exit(el)}if(entered&&!exited){const delta=(targetFromTop-top)/height;el.__ev_progress=Math.min(1,Math.max(0,delta));progress(el,el.__ev_progress)}if(entered&&exited&&el.__ev_progress!==1){el.__ev_progress=1;progress(el,el.__ev_progress)}el.__ev_entered=entered;return true}));if(!elements.length){window.removeEventListener(\"scroll\",onScroll,true);window.removeEventListener(\"resize\",onResize,true);window.removeEventListener(\"load\",onLoad,true)}}function onScroll(){if(!ticking){ticking=true;raf(updateScroll)}}function onResize(){updateHeight();updateScroll()}function onLoad(){updateHeight();updateScroll()}function selectionToArray(selection){const len=selection.length;const result=[];for(let i=0;i<len;i+=1){result.push(selection[i])}return result}function selectAll(selector,parent=document){if(typeof selector===\"string\"){return selectionToArray(parent.querySelectorAll(selector))}else if(selector instanceof NodeList){return selectionToArray(selector)}else if(selector instanceof Array){return selector}}function setupElements(){elements=selectAll(selector)}function setupEvents(){window.addEventListener(\"resize\",onResize,true);window.addEventListener(\"scroll\",onScroll,true);window.addEventListener(\"load\",onLoad,true);onResize()}function init(){if(!selector){console.error(\"must pass selector\");return false}setupElements();if(!elements||!elements.length){console.error(\"no els found\");return false}setupRaf();setupEvents();updateScroll()}init()};return lib}));</script>"}
+executeScriptOnCanvas={true}
+clientOnly={true}
+className={`w-html-embed`} />
+<HtmlEmbed
+code={"<style>\n:root {\n  --ani-duration: var(--duration-default, .2s);\n  --ani-delay: 0s;\n  --ani-slide-offset: 20%;\n  --ani-zoom-in-scale: 1;\n  --ani-zoom-out-scale: .85;\n  --ani-flip-rotate: 30deg;\n  --ani-easing: var(--easing-default, ease);\n  --ani-fill-mode: forwards;\n}\n[data-ani]:not([data-ani-children]),[data-ani-children]:not([data-ani-progress])>*{animation-duration:var(--ani-duration);animation-delay:var(--ani-delay);animation-timing-function:var(--ani-easing);animation-fill-mode:var(--ani-fill-mode);opacity:0}[data-ani-progress]:not([data-ani-children]),[data-ani-children]:not([data-ani])>*{transition-property:opacity,transform;transition-duration:var(--ani-duration);transition-timing-function:var(--ani-easing);opacity:0}\n@keyframes fadeIn{from{opacity:0}\nto{opacity:1}}\n@keyframes fadeOut{from{opacity:1}\nto{opacity:0}}[data-ani-children][data-ani='fade']>.in,[data-ani='fade']:where(.in:not([data-state]),[data-state$='open'],[data-state='active']){animation-name:fadeIn}[data-ani-children][data-ani='fade']>.out,[data-ani='fade']:where(.out:not([data-state]),[data-state='closed'],[data-state='inactive']){animation-name:fadeOut}\n@keyframes slideIn{from{opacity:0;translate:var(--ani-slide-transform)}\nto{opacity:1;translate:none}}\n@keyframes slideOut{from{opacity:1;translate:none}\nto{opacity:0;translate:var(--ani-slide-transform)}}[data-ani-children][data-ani|='slide']>.in,[data-ani|='slide']:where(.in:not([data-state]),[data-state$='open'],[data-state='active']){animation-name:slideIn}[data-ani-children][data-ani|='slide']>.out,[data-ani|='slide']:where(.out:not([data-state]),[data-state='closed'],[data-state='inactive']){animation-name:slideOut}[data-ani='slide-up']{--ani-slide-transform:0 var(--ani-slide-offset)}[data-ani='slide-down']{--ani-slide-transform:0 calc(-1*var(--ani-slide-offset))}[data-ani='slide-left']{--ani-slide-transform:var(--ani-slide-offset)}[data-ani='slide-right']{--ani-slide-transform:calc(-1*var(--ani-slide-offset))}\n@keyframes zoomIn{from{opacity:0;scale:var(--ani-zoom-out-scale)}\nto{opacity:1;scale:1}}\n@keyframes zoomOut{from{opacity:1;scale:1}\nto{opacity:0;scale:var(--ani-zoom-in-scale)}}[data-ani-children][data-ani='zoom']>.in,[data-ani|='zoom']:where(.in:not([data-state]),[data-state$='open'],[data-state='active']){animation-name:zoomIn}[data-ani-children][data-ani='zoom']>.out,[data-ani|='zoom']:where(.out:not([data-state]),[data-state='closed'],[data-state='inactive']){animation-name:zoomOut}[data-ani-children][data-ani-progress='zoom']>*,[data-ani-progress='zoom']:not([data-ani-children]){transform:scale(var(--ani-zoom-out-scale))}\n@keyframes flipInY{from{rotate:y var(--ani-flip-rotate);perspective:2000px;opacity:0}\nto{rotate:y 0;opacity:1}}\n@keyframes flipOutY{from{rotate:y 0;opacity:1}\nto{perspective:2000px;rotate:y var(--ani-flip-rotate);opacity:0}}\n@keyframes flipInX{from{perspective:2000px;rotate:x var(--ani-flip-rotate);opacity:0}\nto{rotate:x 0;opacity:1}}\n@keyframes flipOutX{from{rotate:x 0;opacity:1}\nto{perspective:2000px;rotate:x var(--ani-flip-rotate);opacity:0}}[data-ani-children][data-ani='flip-y']>.in,[data-ani='flip-y']:where(.in:not([data-state]),[data-state$='open'],[data-state='active']){animation-name:flipInY}[data-ani-children][data-ani='flip-x']>.in,[data-ani='flip-x']:where(.in:not([data-state]),[data-state$='open'],[data-state='active']){animation-name:flipInX}[data-ani-children][data-ani='flip-y']>.out,[data-ani='flip-y']:where(.out:not([data-state]),[data-state='closed'],[data-state='inactive']){animation-name:flipOutY}[data-ani-children][data-ani='flip-x']>.out,[data-ani='flip-x']:where(.out:not([data-state]),[data-state='closed'],[data-state='inactive']){animation-name:flipOutX}\n@keyframes expandDown{from{height:0}\nto{height:var(--newHeight)}}\n@keyframes expandUp{from{height:var(--newHeight)}\nto{height:0}}[data-ani='expand'],[data-ani='expand'][data-state='open'],[data-ani='expand'].in{--newHeight:var(--custom-height,var(--radix-accordion-content-height,var(--radix-collapsible-content-height,100%)));overflow:hidden;opacity:1}[data-ani-children][data-ani='expand']>.in,[data-ani='expand']:where(.in:not([data-state]),[data-state$='open'],[data-state='active']){animation:expandDown var(--ani-duration)var(--ani-easing)}[data-ani-children][data-ani='expand']>.out,[data-ani='expand']:where(.out:not([data-state]),[data-state='closed'],[data-state='inactive']){animation:expandUp var(--ani-duration)var(--ani-easing)}\n@media(prefers-reduced-motion:reduce){[data-ani]:not([data-ani-children]),[data-ani-progress]:not([data-ani-children]),[data-ani-children]>*{opacity:1;transform:none;animation:none;rotate:none;scale:none;translate:none}}\n</style>"}
+className={`w-html-embed`} />
+<HtmlEmbed
+code={"<script type=\"module\">\nconst config = {\n\tintersectionOffset: 0.2,\n\tintersectionOnce: true,\n\tprogressOffset: 0,\n\tprogressOnce: false,\n};\nfunction e({trigger:e,selector:r,offset:n,once:s}){const a=\"progress\"===e;return enterView({selector:r,enter:e=>!a&&t(e,\"in\",\"out\"),exit:e=>!a&&t(e,\"out\",\"in\"),progress:(e,t)=>a&&function(e,t){e.style.opacity=t,e.style.transform=function(e,t){const r=e.parentElement,n=r&&r.hasAttribute(\"data-ani-progress\")?r.getAttribute(\"data-ani-progress\"):e.getAttribute(\"data-ani-progress\"),s=parseFloat(getComputedStyle(e).getPropertyValue(\"--ani-slide-offset\"))||0,a=parseFloat(getComputedStyle(e).getPropertyValue(\"--ani-flip-rotate\"))||0,o=1-(1-t)*(1-parseFloat(getComputedStyle(e).getPropertyValue(\"--ani-zoom-out-scale\"))||1);switch(n){case\"slide-up\":return`translateY(${(1-t)*s}px)`;case\"slide-down\":return`translateY(-${(1-t)*s}px)`;case\"slide-left\":return`translateX(${(1-t)*s}px)`;case\"slide-right\":return`translateX(-${(1-t)*s}px)`;case\"flip-x\":return`rotateX(${(1-t)*a}deg)`;case\"flip-y\":return`rotateY(${(1-t)*a}deg)`;case\"zoom\":return`scale(${o})`;default:return\"none\"}}(e,t)}(e,t),offset:n,once:s})}function t(e,t,r){e.classList.add(t),e.classList.remove(r)}function r(e,t){const r=`[${e}]${t?'[data-ani-children=\"true\"] > *':':not([data-ani-children=\"true\"])'}`;return Array.from(document.querySelectorAll(r))}const n=[...r(\"data-ani\"),...r(\"data-ani\",!0)],s=[...r(\"data-ani-progress\"),...r(\"data-ani-progress\",!0)];n.length&&e({trigger:\"intersection\",selector:n,offset:config.intersectionOffset,once:config.intersectionOnce}),s.length&&e({trigger:\"progress\",selector:s,offset:config.progressOffset,once:config.progressOnce});\n</script>"}
+executeScriptOnCanvas={true}
+clientOnly={true}
+className={`w-html-embed`} />
+</Fragment_1>
+</Slot>
+<Box
+className={`w-box cwd459k c7ownnw`}>
+<Heading
+className={`w-heading cwc2kja c6uwl19 c1dmgvcw`}>
+{"Concentrates"}
+</Heading>
+</Box>
 </Box>
 <Box
-className={`w-box ctjochp cu4mp27 coz4cqg c1iw9sd4 c1dtj5ge cglkl71 c1bb8vak`}>
-<Box
-className={`w-box c12sgqm7 cv3kzx6 cu4mp27 coz4cqg c1dtj5ge cz0oo7p c1iw9sd4 c1wtjrrw crx44b c1gnzklf`}>
+className={`w-box ctjochp cu4mp27 coz4cqg c1iw9sd4 c1dtj5ge clpzqua c69rgyq ct91q5z ca6pd8 cv3kzx6`}>
 <Heading
-className={`w-heading c6ekihf c1vbz5x0 c1dmgvcw c1wa3if2 c1du0ay2 c1j2xmgc c1qngz72 c1bhiw1w c3zswuo cneio8g c1oc0xrg`}>
+className={`w-heading c15u9qwq c1kgov5b`}>
+{"Live Resin"}
+</Heading>
+<Box
+className={`w-box c12sgqm7 cv3kzx6 c15u9qwq cu4mp27 c1hvieod ct5nsz8 c1kyi7gz cwpq8gs`}>
+<Box
+className={`w-box cu4mp27 coz4cqg c70zgtq c1ydrnuu cglawed cpphomx c1m858aa cy00zot cox8u97 czlsfng ck0b2pg c1c4tltu cmzdcgd c16orkz4 c11n7e7q cxjswcf c18wd1qf c3ha0d3 cnj9iz1 c11ubgxe c9l79tx coqbytj c1427wst cv3kzx6 c1yx7rsu cwd459k c1b9gdxh c1cakq3q c1o342ey c1tpnlg6`}>
+<Box
+className={`w-box c1phj05c cb1a3cw c1rdy5od c8h6g6d cjbr31r cu4mp27 c1dtj5ge c1iw9sd4 cmokv1g c11ubgxe c9l79tx`}>
+<Image
+loading={"lazy"}
+src={"/assets/concentrate-live-resin_GRS1NfTsjqr9tziDnMDW4.png"}
+width={960}
+height={1054}
+className={`w-image ckdy5dw c11kc275 cv3kzx6 c1buycge cbis4ph c1vbz5x0 cr4vlzo chpafrv chkd2zj cpx82on cc52335`} />
+</Box>
+<Box
+className={`w-box cu4mp27 coz4cqg cnmvlfh c70zgtq c1ydrnuu cglawed c1agfrop cdoq5m0 cj7n2et`}>
+<Box
+className={`w-box cv3kzx6 c1dmgvcw cy50oz3 cu4mp27 coz4cqg c3o2jqk c1o6sx1 c1buycge cbis4ph c1lzowud c87b9a c176g72k`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{"Live Resin (Single Gram)"}
+</Heading>
+</Box>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 cv3kzx6`}>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 coz4cqg cv3kzx6`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{" Prices"}
+</Heading>
+<Paragraph
+className={`w-paragraph cdhvnet c3my65b c1ioltgo`}>
+{"1g - $20"}
+{""}
+<br />
+{""}
+{"7g - $120"}
+{""}
+<br />
+{""}
+{"14g - $200"}
+{""}
+<br />
+{""}
+{"28g - $280"}
+{""}
+<br />
+{""}
+{"112g - $1000"}
+{""}
+<br />
+{""}
+{"224g - $1800"}
+{""}
+<br />
+{""}
+{"448g - $2800"}
+</Paragraph>
+</Box>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 coz4cqg cv3kzx6`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{"Strains"}
+</Heading>
+<Paragraph
+className={`w-paragraph cdhvnet c3my65b c1ioltgo`}>
+{"Moroccan Peaches"}
+{""}
+<br />
+{""}
+{"Curelato"}
+{""}
+<br />
+{""}
+{"Rainbow Z"}
+{""}
+<br />
+{""}
+{"Gushmintz"}
+{""}
+<br />
+{""}
+{"Gas Face OG"}
+{""}
+<br />
+{""}
+{"Honey Crisp Cherries"}
+{""}
+<br />
+{""}
+{"Apple Sherbert"}
+{""}
+<br />
+{""}
+{"Guava Runtz"}
+{""}
+<br />
+{""}
+{"Permanent Biscotti"}
+{""}
+<br />
+{""}
+{"Guala Berries"}
+</Paragraph>
+</Box>
+</Box>
+</Box>
+</Box>
+<Box
+className={`w-box cu4mp27 coz4cqg c70zgtq c1ydrnuu cglawed cpphomx c1m858aa cy00zot cox8u97 czlsfng ck0b2pg c1c4tltu cmzdcgd c16orkz4 c11n7e7q cxjswcf c18wd1qf c3ha0d3 cnj9iz1 c11ubgxe c9l79tx coqbytj c1427wst cv3kzx6 c1wah0cz cwd459k c1b9gdxh c13zph20 c1cakq3q c1o342ey c1tpnlg6`}>
+<Box
+className={`w-box c1phj05c cb1a3cw c1rdy5od c8h6g6d cjbr31r cu4mp27 c1dtj5ge c1iw9sd4 cmokv1g c11ubgxe c9l79tx`}>
+<Image
+loading={"lazy"}
+src={"/assets/concentrate-live-resin_GRS1NfTsjqr9tziDnMDW4.png"}
+width={960}
+height={1054}
+className={`w-image ckdy5dw c11kc275 cv3kzx6 c1buycge cbis4ph c1vbz5x0 cr4vlzo chpafrv chkd2zj cpx82on cc52335`} />
+</Box>
+<Box
+className={`w-box cu4mp27 coz4cqg cnmvlfh c70zgtq c1ydrnuu cglawed c1agfrop cdoq5m0 cj7n2et`}>
+<Box
+className={`w-box cv3kzx6 c1dmgvcw cy50oz3 cu4mp27 coz4cqg c3o2jqk c1o6sx1 c1buycge cbis4ph c1lzowud c87b9a c176g72k`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{"Live Resin (Oz Jar)"}
+</Heading>
+</Box>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 cv3kzx6`}>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 coz4cqg cv3kzx6`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{" Prices"}
+</Heading>
+<Paragraph
+className={`w-paragraph cdhvnet c3my65b c1ioltgo`}>
+{"1oz - $250"}
+{""}
+<br />
+{""}
+{"2oz - $450"}
+{""}
+<br />
+{""}
+{"4oz - $800"}
+{""}
+<br />
+{""}
+{"8oz - $1400"}
+{""}
+<br />
+{""}
+{"16oz - $2200"}
+</Paragraph>
+</Box>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 coz4cqg cv3kzx6`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{"Strains"}
+</Heading>
+<Paragraph
+className={`w-paragraph cdhvnet c3my65b c1ioltgo`}>
+{"Moroccan Peaches"}
+{""}
+<br />
+{""}
+{"Curelato"}
+{""}
+<br />
+{""}
+{"Rainbow Z"}
+{""}
+<br />
+{""}
+{"Gushmintz"}
+{""}
+<br />
+{""}
+{"Gas Face OG"}
+{""}
+<br />
+{""}
+{"Honey Crisp Cherries"}
+{""}
+<br />
+{""}
+{"Apple Sherbert"}
+{""}
+<br />
+{""}
+{"Guava Runtz"}
+{""}
+<br />
+{""}
+{"Permanent Biscotti"}
+{""}
+<br />
+{""}
+{"Guala Berries"}
+</Paragraph>
+</Box>
+</Box>
+</Box>
+</Box>
+</Box>
+</Box>
+<Box
+className={`w-box c1phj05c cu4mp27 coz4cqg c1iw9sd4 c1dtj5ge clpzqua c69rgyq ct91q5z ca6pd8 cv3kzx6 cwc2kja`}>
+<Heading
+className={`w-heading cwc2kja c1kgov5b`}>
 <Bold
 className={`w-bold-text`}>
-{"Shop Status"}
+{"Hash Rosin"}
 </Bold>
 </Heading>
 <Box
-className={`w-box cu4mp27 c1dtj5ge c1iw9sd4 c1b9jjvs c1ey6spw c1rqq3e2 cu93cby cy7xhly c1oxn5rj ce46e2j c1ntcgb2 c1mkgcam cxhazzx cs3xl69 c1b1yl8t c1phj05c c1penala`}>
-<HtmlEmbed
-code={"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-dot\"><circle cx=\"12.1\" cy=\"12.1\" r=\"1\"></circle></svg>"}
-className={`w-html-embed c7fnkrg c946wgn c1fmc3fe c5alda6 ce3uhuj`} />
-<Text
-className={`w-text`}>
-{"Open for Deliveries and Pick Up Orders."}
-</Text>
-</Box>
+className={`w-box c12sgqm7 cv3kzx6 cwd459k cu4mp27 c1hvieod ct5nsz8 c1dtj5ge cz0oo7p c70zgtq c1mn9c9p c1g9uqnu cf77yik c1vactxf c1kyi7gz`}>
+<Box
+className={`w-box cu4mp27 coz4cqg c70zgtq c1ydrnuu cglawed cpphomx c1m858aa cy00zot cox8u97 czlsfng ck0b2pg c1c4tltu cmzdcgd c16orkz4 c11n7e7q cxjswcf c18wd1qf c3ha0d3 cnj9iz1 c11ubgxe c9l79tx coqbytj c1427wst cv3kzx6 c1yx7rsu cwd459k c1b9gdxh c1cakq3q c1o342ey c1tpnlg6 cbqoeeo cwjflss cs9xjj3`}>
+<Box
+className={`w-box c1phj05c cb1a3cw c1rdy5od c8h6g6d cjbr31r cu4mp27 c1dtj5ge c1iw9sd4 cmokv1g c11ubgxe c9l79tx`}>
 <Image
-src={"/assets/img_0135-AzGebx4ZVqSOJjNy_pTpv05iY7W39J2sGKejYC.jpg"}
-width={480}
-height={320}
-className={`w-image cgtn28x cvvtakd cbrc0c9 c18196pg covv98`} />
-<Text
-className={`w-text c5xwxtn c10r8lgl c1to9h8l c1h9odls c1dmgvcw`}>
-{"*We only deliver to addresses within this area* "}
+loading={"lazy"}
+src={"/assets/concentrates-all_pVgDWi7RE9ruXNjh97uAO.jpeg"}
+width={3242}
+height={2278}
+className={`w-image ckdy5dw c11kc275 cv3kzx6 c1buycge cbis4ph c1vbz5x0 cr4vlzo chpafrv chkd2zj cpx82on cc52335`} />
+</Box>
+<Box
+className={`w-box cu4mp27 coz4cqg cnmvlfh c70zgtq c1ydrnuu cglawed c1agfrop cdoq5m0 cj7n2et`}>
+<Box
+className={`w-box cv3kzx6 c1dmgvcw cy50oz3 cu4mp27 coz4cqg c3o2jqk c1o6sx1 c1buycge cbis4ph c1lzowud c87b9a c176g72k`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{"Hash Rosin 1g Jars"}
+</Heading>
+</Box>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 cv3kzx6`}>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 coz4cqg cv3kzx6`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+{" "}
+<Bold
+className={`w-bold-text`}>
+{"Price"}
+</Bold>
+</Heading>
+<Paragraph
+className={`w-paragraph cdhvnet c3my65b c1ioltgo`}>
+{"$60 a Jar"}
+</Paragraph>
+</Box>
+<Box
+className={`w-box cu4mp27 cpd4mkg c2qiv37 coz4cqg cv3kzx6`}>
+<Heading
+tag={"h3"}
+className={`w-heading c1sm7rqw c1l2s2h8 c1hh4ju1 c1mmrcsd cwd459k`}>
+<Bold
+className={`w-bold-text`}>
+{"Strains"}
+</Bold>
+</Heading>
+<Paragraph
+className={`w-paragraph cdhvnet c3my65b c1ioltgo`}>
+{"Blue Gummy Shark"}
 {""}
 <br />
 {""}
-{"(anyone outside the area has to pick their order up downtown)"}
-</Text>
+{"Sour Peaches"}
+{""}
+<br />
+{""}
+{"Ridgeline Rose"}
+{""}
+<br />
+{""}
+{"Blue Mango"}
+{""}
+<br />
+{""}
+{"Cranberry Z"}
+{""}
+<br />
+{""}
+{"Triangle Kush"}
+</Paragraph>
+</Box>
+</Box>
+</Box>
+</Box>
 </Box>
 </Box>
 <Slot>

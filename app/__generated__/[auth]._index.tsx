@@ -9,10 +9,10 @@
 import { Box as Box, Heading as Heading, Paragraph as Paragraph, HtmlEmbed as HtmlEmbed, Input as Input, Button as Button } from "@webstudio-is/sdk-components-react";
 
 
-      export const siteName = undefined;
+      export const siteName = "MPLS Exclusives";
 
       export const favIconAsset: ImageAsset | undefined =
-        undefined;
+        {"id":"91f97a05fdd0a933a5048e94413d22c9cdece8a5b0bf87c771ec48a7c35e935f","name":"logo_K8oPhIZdT21u2JNqOVJST.jpg","description":null,"projectId":"415daee6-d649-4f55-a0a1-d276dd549867","size":519600,"type":"image","format":"png","createdAt":"2024-12-11T23:54:31.165+00:00","meta":{"width":1234,"height":1155}};
 
       // Font assets on current page (can be preloaded)
       export const pageFontAssets: FontAsset[] =

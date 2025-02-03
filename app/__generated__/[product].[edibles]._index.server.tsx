@@ -21,7 +21,7 @@ export const getResources = (_props: { system: System }) => {
   resources: Record<string, any>;
 }): PageMeta => {
   return {
-    title: "MPLS Exclusives",
+    title: "MPLS Exclusives | Edibles",
     description: undefined,
     excludePageFromSearch: undefined,
     language: undefined,
