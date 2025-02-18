@@ -1,0 +1,1 @@
+export { AuthOTP } from './auth-otp';

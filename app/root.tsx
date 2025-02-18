@@ -1,9 +1,17 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 
 import { Links, Meta, Outlet, useMatches } from "react-router";
-// @todo think about how to make __generated__ typeable
-// @ts-ignore
 import { CustomCode } from "./__generated__/_index";
+import { SessionService } from './atlas/services/server';
+import type { LoaderFunctionArgs } from "react-router";
+
+export async function loader({ request }: LoaderFunctionArgs) {
+  const session = await SessionService.requireAuth(request);
+
+  return Response.json({
+    isAuthenticated: SessionService.getIsAuthenticated(session),
+  });
+}
 
 const Root = () => {
   // Get language from matches

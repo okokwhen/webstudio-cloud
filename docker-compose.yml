@@ -1,0 +1,22 @@
+services:
+    web:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - '3000:3000'
+        environment:
+            - NODE_ENV=production
+            - DOMAINS=localhost,127.0.0.1
+        env_file:
+            - .env
+        volumes:
+            - ./app:/app/app
+            - ./public:/app/public
+        restart: unless-stopped
+        healthcheck:
+            test: ['CMD', 'wget', '--spider', 'http://localhost:3000']
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 40s
