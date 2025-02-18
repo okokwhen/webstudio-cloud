@@ -32,7 +32,7 @@ className={`w-body cs1bwfe c1vbz5x0 c1wdgcvp`}>
 <Slot>
 <Fragment_1>
 <Box
-className={`w-box cu4mp27 c15sjw60 c1dtj5ge crrysu3 ccw0qbb cvzxz7j c11nb7ne c1phj05c`}>
+className={`w-box cu4mp27 c15sjw60 c1dtj5ge crrysu3 ccw0qbb cvzxz7j c11nb7ne c1phj05c c1932x9d c1qcaze7 c1sncx40 c17u04hq ca9dp7 c4rosl c1vu9bts`}>
 <Link
 href={"/"}
 className={`w-link c7ownnw`}>
@@ -45,7 +45,7 @@ className={`w-image cy69cyc c1m0ktp9 cv3kzx6`} />
 <Dialog>
 <DialogTrigger>
 <Button
-className={`w-button c7fnkrg c1dtj5ge c1iw9sd4 c1d5yt3j cmthkik c1x7ee1t c1y4tju6 cq20zg9 clikaav c1hopcms c10r8lgl c71sr46 c1geuvnr cs2xi3r c7v5o7f c1uo68ki c1cliytc ct1i25u c16irc7c c1jaqdov c1avg2et c1efx6ce c1stjap9 c1ldecdk cy8mzru c17hbam9 c12859n5 c1vj1s7p`}>
+className={`w-button c7fnkrg c1dtj5ge c1iw9sd4 c1d5yt3j cmthkik c1x7ee1t c1y4tju6 cq20zg9 clikaav c1hopcms c10r8lgl c71sr46 c1geuvnr cs2xi3r c7v5o7f c1uo68ki c1cliytc ct1i25u c16irc7c c1jaqdov c1avg2et c1efx6ce c1stjap9 c1ldecdk cy8mzru c17hbam9 c12859n5 c1vj1s7p c1qotr1b`}>
 <HtmlEmbed
 code={"<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\" width=\"100%\" height=\"100%\" style=\"display: block;\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.667 8h10.666M2.667 4h10.666M2.667 12h10.666\"/></svg>"}
 className={`w-html-embed`} />
@@ -186,7 +186,7 @@ className={`w-html-embed`} />
 </DialogOverlay>
 </Dialog>
 <NavigationMenu
-className={`w-navigation-menu cgyr9oz c1b1yl8t cb61s8s cukfym9 c1n59e6n`}>
+className={`w-navigation-menu cgyr9oz c1b1yl8t cb61s8s cukfym9 c1n59e6n c186b88e`}>
 <NavigationMenuList
 className={`w-menu-list cu4mp27 c1ehgske cf77yik c97z1qr clipwj3 c1dtj5ge c1iw9sd4 c1e5380k crqyyz3 cw1fe1l c1po35wd`}>
 <NavigationMenuItem
@@ -209,7 +209,7 @@ className={`w-html-embed`} />
 </NavigationMenuTrigger>
 <NavigationMenuContent
 data-ws-index="0"
-className={`w-menu-content c1qfxbu6 c1dj3kbp c1bo75lt c7ownnw c1r47x89 c95cigk cnzsxgv cgubn64 c1a4m7uf c13wga6k cd5cod6 c1fi4pp7 cqhu9v6 cg0jf30 cvd2jir caqj23n ckh1f0e`}>
+className={`w-menu-content c1qfxbu6 c1dj3kbp c1bo75lt c7ownnw c1r47x89 c1fi4pp7 cqhu9v6 cg0jf30 cvd2jir caqj23n ckh1f0e`}>
 <Box
 className={`w-box cu4mp27 c17f72d3 c12rlhi6 c1xysffg`}>
 <Box
@@ -217,13 +217,13 @@ className={`w-box ctahyjf cu4mp27 c17f72d3 c12rlhi6 coz4cqg`}>
 <NavigationMenuLink>
 <Link
 href={"/resource/register"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Register"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"How to "}
 <Bold
 className={`w-bold-text`}>
@@ -235,13 +235,13 @@ className={`w-bold-text`}>
 <NavigationMenuLink>
 <Link
 href={"/resource/information"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Shop Information"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"Hours of Operation, Payment methods, and Delivery info"}
 </Paragraph>
 </Link>
@@ -249,13 +249,13 @@ className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h5
 <NavigationMenuLink>
 <Link
 href={"/resource/order-info"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv c18wet1l ckh1f0e c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c18wet1l ckh1f0e c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Place An Order"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"How to place an order with us"}
 </Paragraph>
 </Link>
@@ -292,13 +292,13 @@ className={`w-box ctahyjf cu4mp27 c17f72d3 c12rlhi6 coz4cqg`}>
 <NavigationMenuLink>
 <Link
 href={"/product/flower"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Flower"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"Exclusive, A+, B+"}
 </Paragraph>
 </Link>
@@ -306,13 +306,13 @@ className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h5
 <NavigationMenuLink>
 <Link
 href={"/product/edibles"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv c18wet1l ckh1f0e c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c18wet1l ckh1f0e c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Edibles"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"Gummies, Chocolate, etc."}
 </Paragraph>
 </Link>
@@ -320,13 +320,13 @@ className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h5
 <NavigationMenuLink>
 <Link
 href={"/product/psilocybin"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv ckh1f0e c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm ckh1f0e c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Psilocybin"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"Micro & Macro Dose"}
 </Paragraph>
 </Link>
@@ -337,13 +337,13 @@ className={`w-box ctahyjf cu4mp27 c17f72d3 c12rlhi6 coz4cqg`}>
 <NavigationMenuLink>
 <Link
 href={"/product/concentrates"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Concentrates"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"Resin, Rosin, etc."}
 </Paragraph>
 </Link>
@@ -351,13 +351,13 @@ className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h5
 <NavigationMenuLink>
 <Link
 href={"/product/pens"}
-className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c6mc36k cztfspv c15o2liy c1av5rhm`}>
+className={`w-link cxdjzid cu4mp27 coz4cqg ctbssl9 c1e5380k crqyyz3 cmthkik c1x7ee1t c1y4tju6 cq20zg9 c18dg99t c87b9a ckd01ui c15bbt3u cplfgll cm2as2w chlh413 c33zlc8 c1wxk3fm c15o2liy c1av5rhm`}>
 <Text
 className={`w-text clikaav c18dg99t c10r8lgl`}>
 {"Carts - Vapes - Disposables"}
 </Text>
 <Paragraph
-className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l cotj3hk c1gnhtij`}>
+className={`w-paragraph c11ubgxe c9l79tx cdgnnju c12507vo cznz35m clikaav c149h52m c1qdh9q7 cw1fe1l`}>
 {"Resin, Rosin, etc."}
 </Paragraph>
 </Link>
@@ -429,7 +429,7 @@ className={`w-heading c15u9qwq c1kgov5b`}>
 {"Live Resin"}
 </Heading>
 <Box
-className={`w-box c12sgqm7 cv3kzx6 c15u9qwq cu4mp27 c1hvieod ct5nsz8 c1kyi7gz cwpq8gs`}>
+className={`w-box c12sgqm7 cv3kzx6 c15u9qwq cu4mp27 c1hvieod ct5nsz8 c1kyi7gz`}>
 <Box
 className={`w-box cu4mp27 coz4cqg c70zgtq c1ydrnuu cglawed cpphomx c1m858aa cy00zot cox8u97 czlsfng ck0b2pg c1c4tltu cmzdcgd c16orkz4 c11n7e7q cxjswcf c18wd1qf c3ha0d3 cnj9iz1 c11ubgxe c9l79tx coqbytj c1427wst cv3kzx6 c1yx7rsu cwd459k c1b9gdxh c1cakq3q c1o342ey c1tpnlg6`}>
 <Box
@@ -758,11 +758,11 @@ className={`w-link cwd459k c7fnkrg cpz6ong cex7749 c1zvpxi coe7u2v cebowtb c11ys
 </Box>
 </Box>
 <Box
-className={`w-box cu4mp27 c15sjw60 c1adzsxc cnmvlfh`}>
+className={`w-box cu4mp27 c15sjw60 c1adzsxc cnmvlfh cyyy1wb c1kkeuj2`}>
 <Box
 className={`w-box cu4mp27 c1dtj5ge c70zgtq c1b9jjvs c1ey6spw`}>
 <Text
-className={`w-text`}>
+className={`w-text c13t4ovc`}>
 {"© 2025 MPLS Exclusives."}
 </Text>
 </Box>
@@ -771,7 +771,7 @@ aria-label={"Instagram"}
 className={`w-link c9bwd4m c1hhjurq cpz6ong cex7749 c1zvpxi coe7u2v cebowtb c16a0lg0 c1ittiww cai9lco`}>
 <HtmlEmbed
 code={"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g opacity=\"0.4\">\n<path d=\"M16.5 2.25H7.5C6.10807 2.25149 4.77358 2.80509 3.78933 3.78933C2.80509 4.77358 2.25149 6.10807 2.25 7.5V16.5C2.25149 17.8919 2.80509 19.2264 3.78933 20.2107C4.77358 21.1949 6.10807 21.7485 7.5 21.75H16.5C17.8919 21.7485 19.2264 21.1949 20.2107 20.2107C21.1949 19.2264 21.7485 17.8919 21.75 16.5V7.5C21.7485 6.10807 21.1949 4.77358 20.2107 3.78933C19.2264 2.80509 17.8919 2.25149 16.5 2.25ZM12 16.5C11.11 16.5 10.24 16.2361 9.49993 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18868 9.44736 8.81802 8.81802C9.44736 8.18868 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49993C16.2361 10.24 16.5 11.11 16.5 12C16.4988 13.1931 16.0243 14.337 15.1806 15.1806C14.337 16.0243 13.1931 16.4988 12 16.5ZM17.625 7.5C17.4025 7.5 17.185 7.43402 17 7.3104C16.815 7.18679 16.6708 7.01109 16.5856 6.80552C16.5005 6.59995 16.4782 6.37375 16.5216 6.15552C16.565 5.93729 16.6722 5.73684 16.8295 5.5795C16.9868 5.42217 17.1873 5.31502 17.4055 5.27162C17.6238 5.22821 17.85 5.25049 18.0555 5.33564C18.2611 5.42078 18.4368 5.56498 18.5604 5.74998C18.684 5.93499 18.75 6.1525 18.75 6.375C18.75 6.67337 18.6315 6.95952 18.4205 7.1705C18.2095 7.38147 17.9234 7.5 17.625 7.5ZM15 12C15 12.5933 14.8241 13.1734 14.4944 13.6667C14.1648 14.1601 13.6962 14.5446 13.1481 14.7716C12.5999 14.9987 11.9967 15.0581 11.4147 14.9424C10.8328 14.8266 10.2982 14.5409 9.87868 14.1213C9.45912 13.7018 9.1734 13.1672 9.05764 12.5853C8.94189 12.0033 9.0013 11.4001 9.22836 10.8519C9.45542 10.3038 9.83994 9.83524 10.3333 9.50559C10.8266 9.17595 11.4067 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z\" fill=\"white\"></path>\n</g>\n</svg>\n"}
-className={`w-html-embed`} />
+className={`w-html-embed coy2k3x`} />
 </Link>
 </Box>
 </Box>

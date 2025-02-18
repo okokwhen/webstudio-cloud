@@ -335,31 +335,6 @@
     outline-width: 1px;
     display: inline-block
   }
-  :where(form.w-form) {
-    box-sizing: border-box;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    outline-width: 1px;
-    min-height: 20px
-  }
-  :where(input.w-text-input) {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    box-sizing: border-box;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    display: block;
-    margin: 0
-  }
   :where(div.w-tabs) {
     box-sizing: border-box;
     border-top-width: 1px;
@@ -739,33 +714,6 @@
   }
   .crx44b {
     column-gap: 30px
-  }
-  .cs1bwfe {
-    background-color: rgba(10, 10, 10, 1)
-  }
-  .cdtpo18 {
-    height: 100dvh
-  }
-  .c17oxavp {
-    max-height: 100dvh
-  }
-  .c1jbq3j1 {
-    display: grid
-  }
-  .c1ivsz46 {
-    align-content: center
-  }
-  .c1ojcter {
-    max-width: 60rem
-  }
-  .c7ownnw {
-    width: max-content
-  }
-  .c1ttuzxs {
-    color: rgba(255, 255, 255, 1)
-  }
-  .c1w2n47q {
-    width: auto
   }
   :root {
     --font-lineheight-00: 0.95;
@@ -1286,6 +1234,9 @@
     --spacing-default: var(--size-fluid-3);
     --brand-500: rgba(250, 205, 2, 1)
   }
+  .cs1bwfe {
+    background-color: rgba(10, 10, 10, 1)
+  }
   .c1wdgcvp {
     max-width: 100svw
   }
@@ -1397,6 +1348,9 @@
   }
   .co2kpwi:focus-visible {
     outline: medium none currentcolor
+  }
+  .c7ownnw {
+    width: max-content
   }
   .cwc2kja {
     color: var(--brand-500)
@@ -1734,6 +1688,9 @@
   .cnhuezd {
     background-position: 0% 0%
   }
+  .c1jbq3j1 {
+    display: grid
+  }
   .c1yiv8kw {
     column-gap: var(--gap-m)
   }
@@ -2013,6 +1970,9 @@
   .c14rhrn {
     column-gap: 20px
   }
+  .c1ttuzxs {
+    color: rgba(255, 255, 255, 1)
+  }
   .cqxwjyt {
     font-family: system-ui, sans-serif
   }
@@ -2083,12 +2043,7 @@
     order: 0
   }
 }
-@media all and (min-width: 640px) {
-  .c1xpsewi {
-    width: 100%
-  }
-}
-@media all and (min-width: 768px) {
+@media all and (max-width: 991px) {
   .c1kyi7gz {
     scrollbar-width: none
   }
@@ -2159,41 +2114,103 @@
     max-width: 50%
   }
 }
-@media all and (min-width: 1024px) {
-  .c1gnzklf {
-    max-width: 60rem
+@media all and (max-width: 767px) {
+  .c1xpsewi {
+    width: 100%
   }
-  .cwpq8gs {
-    max-width: 80rem
+}
+@media all and (max-width: 479px) {
+  .c1vu9bts {
+    max-width: 100vw
   }
-  .c95cigk {
-    border-top-color: var(--background-secondary)
+  .cf9cs1s {
+    overflow-x: hidden
   }
-  .cnzsxgv {
-    border-right-color: var(--background-secondary)
+  .c1fe8tiy {
+    overflow-y: visible
   }
-  .cgubn64 {
-    border-bottom-color: var(--background-secondary)
+  .c9n3ts7 {
+    max-width: 200px
   }
-  .c1a4m7uf {
-    border-left-color: var(--background-secondary)
+  .c1932x9d {
+    width: 100%
   }
-  .c13wga6k {
-    background-color: var(--background-primary)
+  .c13t4ovc {
+    font-size: var(--font-size-fluid-0)
   }
-  .cd5cod6 {
-    color: var(--foreground-primary)
+  .c8x2t01 {
+    padding-right: 10px
   }
-  .c6mc36k:hover {
-    background-color: var(--background-secondary)
+  .c1vffd4c {
+    padding-left: 10px
   }
-  .cztfspv:hover {
-    color: var(--brand-500)
+  .c1ufjlvg {
+    font-size: var(--font-size-6)
   }
-  .cotj3hk {
-    color: var(--gray-6)
+  .c1qcaze7 {
+    flex-direction: row
   }
-  .c1gnhtij:hover {
-    color: var(--foreground-primary)
+  .c1sncx40 {
+    padding-left: 20px
+  }
+  .c17u04hq {
+    padding-bottom: 10px
+  }
+  .ca9dp7 {
+    padding-top: 10px
+  }
+  .c4rosl {
+    padding-right: 20px
+  }
+  .c1qotr1b {
+    display: block
+  }
+  .cyyy1wb {
+    align-items: center
+  }
+  .c1kkeuj2 {
+    justify-content: space-between
+  }
+  .c186b88e {
+    display: none
+  }
+  .c121i03f {
+    height: var(--size-3)
+  }
+  .c7q8njh {
+    width: var(--size-3)
+  }
+  .c1hcop6s {
+    align-self: baseline
+  }
+  .c1izw04s {
+    max-width: none
+  }
+  .c1wxde9y {
+    width: 90%
+  }
+  .crcgdk5 {
+    font-size: var(--font-size-00)
+  }
+  .c1ey0ix {
+    max-width: 100%
+  }
+  .cakilxo {
+    min-width: auto
+  }
+  .cm4b1t2 {
+    row-gap: 0px
+  }
+  .c2hebfb {
+    column-gap: 0px
+  }
+  .c1ctalc8 {
+    font-size: var(--font-size-0)
+  }
+  .cfl04yt {
+    min-width: 275px
+  }
+  .coy2k3x {
+    height: 100%
   }
 }
