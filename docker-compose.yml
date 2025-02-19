@@ -6,8 +6,7 @@ services:
         ports:
             - '3000:3000'
         environment:
-            - NODE_ENV=production
-            - DOMAINS=localhost,127.0.0.1
+            - DOMAINS=localhost,127.0.0.1,mplsexclusives
         env_file:
             - .env
         volumes:
